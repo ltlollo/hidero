@@ -1,4 +1,4 @@
-const unsigned char main[] = {
+const unsigned char main[] __attribute__((section(".text"))) = {
 	#include "hb.h"
 	#include "ej.h"
 	#include "ed.h"
